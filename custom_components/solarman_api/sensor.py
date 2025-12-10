@@ -18,6 +18,7 @@ from homeassistant.const import (
     UnitOfFrequency,
     UnitOfPower,
     UnitOfTemperature,
+    PERCENTAGE
 )
 from homeassistant.core import HomeAssistant, callback
 from homeassistant.helpers.entity_platform import AddConfigEntryEntitiesCallback
@@ -189,6 +190,22 @@ SENSOR_TYPES: tuple[SensorEntityDescription, ...] = (
         entity_category=EntityCategory.DIAGNOSTIC,
         entity_registry_enabled_default=False,
         translation_key="radiator_temp",
+        suggested_display_precision=1,
+    ),
+    SensorEntityDescription(
+        key="DPi_t1",
+        device_class=SensorDeviceClass.POWER,
+        state_class=SensorStateClass.MEASUREMENT,
+        native_unit_of_measurement=UnitOfPower.WATT,
+        translation_key="total_dc_input_power",
+        suggested_display_precision=0,
+    ),
+    SensorEntityDescription(
+        key="B_left_cap1",
+        device_class=SensorDeviceClass.BATTERY,
+        state_class=SensorStateClass.MEASUREMENT,
+        native_unit_of_measurement=PERCENTAGE,
+        translation_key="battery_state_of_charge",
         suggested_display_precision=1,
     ),
 )
