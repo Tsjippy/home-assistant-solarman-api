@@ -234,9 +234,9 @@ SENSOR_TYPES: tuple[SensorEntityDescription, ...] = (
     ),
 	SensorEntityDescription(
         key="BMS_B_C1",
-        device_class=SensorDeviceClass.ENERGY,
-        state_class=SensorStateClass.TOTAL_INCREASING,
-        native_unit_of_measurement=A,
+        device_class=SensorDeviceClass.CURRENT,
+        state_class=SensorStateClass.MEASUREMENT,
+        native_unit_of_measurement=UnitOfElectricCurrent.AMPERE,
         translation_key="bms_current",
         suggested_display_precision=1,
     ),
