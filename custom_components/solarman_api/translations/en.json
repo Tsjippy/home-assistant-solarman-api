@@ -73,6 +73,12 @@
       },
       "total_production_2": {
         "name": "Total production 2"
+      },
+      "total_dc_input_power": {
+        "name": "Total DC Input Power"
+      },
+      "battery_state_of_charge": {
+        "name": "Battery SoC"
       }
     }
   },
