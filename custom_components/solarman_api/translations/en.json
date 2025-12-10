@@ -80,6 +80,58 @@
       "battery_state_of_charge": {
         "name": "Battery SoC"
       }
+      ,
+      "total_smartload_power": {
+        "name": "Total Smartload Power"
+      }
+      ,
+      "bms_soc": {
+        "name": "BMS SOC"
+      }
+      ,
+      "bms_voltage": {
+        "name": "BMS Voltage"
+      }
+      ,
+      "bms_current": {
+        "name": "BMS Current"
+      }
+      ,
+      "battery_voltage": {
+        "name": "Battery Voltage"
+      }
+      ,
+      "battery_current": {
+        "name": "Battery Current"
+      }
+      ,
+      "battery_power": {
+        "name": "Battery Power"
+      }
+      ,
+      "soc": {
+        "name": "SoC"
+      }
+      ,
+      "total_grid_power": {
+        "name": "Total Grid Power"
+      }
+      ,
+      "grid_voltage_l1l2": {
+        "name": "Grid Voltage L1L2"
+      }
+      ,
+      "grid_current_l1l2": {
+        "name": "Grid Current L1L2"
+      }
+      ,
+      "inverter_output_power_l1l2": {
+        "name": "Inverter Output Power L1L2"
+      }
+      ,
+      "pv_daily_power_generation": {
+        "name": "PV daily power generation (active)"
+      }
     }
   },
   "exceptions": {
