@@ -265,14 +265,6 @@ SENSOR_TYPES: tuple[SensorEntityDescription, ...] = (
         suggested_display_precision=1,
     ),
 	SensorEntityDescription(
-        key="B_left_cap1",
-        device_class=SensorDeviceClass.BATTERY,
-        state_class=SensorStateClass.MEASUREMENT,
-        native_unit_of_measurement=PERCENTAGE,
-        translation_key="soc",
-        suggested_display_precision=1,
-    ),
-	SensorEntityDescription(
         key="PG_Pt1",
         device_class=SensorDeviceClass.POWER,
         state_class=SensorStateClass.MEASUREMENT,
