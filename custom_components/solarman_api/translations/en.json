@@ -115,6 +115,24 @@
       },
       "pv_daily_power_generation": {
         "name": "PV daily power generation (active)"
+      },
+      "dc_current_pv1": {
+        "name": "DC Current PV1"
+      },
+      "dc_current_pv2": {
+        "name": "DC Current PV1"
+      },
+      "dc_current_pv2": {
+        "name": "DC Current PV1"
+      },
+      "dc_power_pv1": {
+        "name": "DC Power PV1"
+      },
+      "dc_power_pv2": {
+        "name": "DC Power PV1"
+      },
+      "dc_power_pv3": {
+        "name": "DC Power PV1"
       }
     }
   },
