@@ -120,19 +120,19 @@
         "name": "DC Current PV1"
       },
       "dc_current_pv2": {
-        "name": "DC Current PV1"
+        "name": "DC Current PV2"
       },
       "dc_current_pv2": {
-        "name": "DC Current PV1"
+        "name": "DC Current PV3"
       },
       "dc_power_pv1": {
         "name": "DC Power PV1"
       },
       "dc_power_pv2": {
-        "name": "DC Power PV1"
+        "name": "DC Power PV2"
       },
       "dc_power_pv3": {
-        "name": "DC Power PV1"
+        "name": "DC Power PV3"
       }
     }
   },
